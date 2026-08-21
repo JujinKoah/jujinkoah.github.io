@@ -29,7 +29,7 @@ body {
 }
 
 #logo, #girl {
-  animation: fadeIn 1.2s ease;
+  animation: fadeIn 1.8s ease;
 }
 
 @keyframes fadeIn {
@@ -38,7 +38,7 @@ body {
 }
 
 #logo {
-  width: 90px;   /* adjust until it feels right */
+  width: 90px;  
   height: auto;
   margin-bottom: 20px;
 }
