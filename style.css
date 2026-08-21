@@ -6,4 +6,12 @@ body {
   justify-content: center;
   align-items: center;
   background-color: lightblue;
+  height: 100vh;
+  margin: 0;
+}
+#search {
+  width: 400px;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 20px;
 }
