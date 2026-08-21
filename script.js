@@ -62,3 +62,16 @@ const logos = [
 const randomLogo = logos[Math.floor(Math.random() * logos.length)];
 
 document.getElementById("logo").src = randomLogo;  
+
+const searchInput = document.getElementById("search");
+
+searchInput.addEventListener("keydown", function(e) {
+  if (e.key === "Enter") {
+    const query = searchInput.value.trim();
+    if (query.legnth > 0) {
+      window.location.href = "https://www.google.com/search?q=" + encodeURIComponent(query);
+    }
+  }
+});
+
+
