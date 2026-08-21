@@ -5,8 +5,9 @@ body {
   padding: 0;
   background-image: url("steampunk.jpg");
   background-size: contain;
-  background-position: center;
+  background-position: top center;
   background-repeat: no-repeat;
+  background-color: black;
 
   height: 100vh;
 
