@@ -36,3 +36,9 @@ body {
   from { opacity: 0; transform: translateY(20px); }
   to { opacity: 1; transform: translateY(0); }
 }
+
+#logo {
+  width: 150px;   /* adjust until it feels right */
+  height: auto;
+  margin-bottom: 20px;
+}
