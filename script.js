@@ -61,8 +61,4 @@ const logos = [
   ];
 const randomLogo = logos[Math.floor(Math.random() * logos.length)];
 
-
-
-
-
-  
+document.getElementById("logo").src = randomLogo;  
