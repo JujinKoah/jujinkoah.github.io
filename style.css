@@ -11,7 +11,10 @@ body {
 }
 #search {
   width: 400px;
-  padding: 10px;
+  padding: 12px 18px;
   font-size: 18px;
-  border-radius: 20px;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  outline: none;
+  box-shadow: 0px 2px 6px rgba(0,0,0,0.2);
 }
