@@ -1,1 +1,1 @@
-start of the js file
+console.log("script loaded");
